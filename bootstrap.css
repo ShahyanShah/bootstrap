@@ -1,0 +1,144 @@
+.container-fluid{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    margin-left: 2.5rem;
+}
+.navbar-brand{
+    font-size: x-large;
+    font-weight: 20;
+    color: black;
+}
+.nav-link1{
+    color: blue;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    padding-left: 14px;
+}
+.navlink{
+    padding-left: 20rem;
+}
+.contact{
+    padding-left: 200px;
+}
+.responsive-heading {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    padding-top: 2rem;
+  }
+  .svg-container {
+    width: 10%;
+    max-width: 400px; /* Set a max width if desired */
+    height: auto;
+    position: absolute;
+    right: 28rem;
+    padding-right: 2rem;
+  }
+
+
+
+
+
+
+
+
+
+  
+  /* Adjust font size for tablets */
+  @media (max-width: 768px) {
+    .responsive-heading {
+      font-size: 28px;
+    }
+  }
+  
+  /* Adjust font size for mobile phones */
+  @media (max-width: 600px) {
+    .responsive-heading {
+      font-size: 24px;
+    }
+  }
+  .responsive-card {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
+
+.responsive-form {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .responsive-card {
+        margin: 0 auto;
+        border: none;
+    }
+    
+    .responsive-card .card-body h5 {
+        font-size: 28px;
+    }
+
+    .responsive-card .card-text {
+        font-size: medium;
+    }
+
+    .responsive-form {
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0 1rem;
+    }
+    
+    .responsive-form h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .responsive-form button {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .responsive-form .col-md-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-card .card-body h5 {
+        font-size: 24px;
+    }
+
+    .responsive-card .card-text {
+        font-size: small;
+    }
+
+    .responsive-form h1 {
+        font-size: 1.25rem;
+    }
+
+    .responsive-form button {
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+/*@media (max-width: 767.98px) {
+    .navbar-nav .nav-item {
+        left: 0;
+        
+    }
+
+    .navbar-nav .nav-link {
+        width: 10%;
+    }
+}
